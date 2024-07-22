@@ -2,7 +2,7 @@ name: Test_Deploy
 on: push
 jobs:
     deploy:
-        runs-on: self-hosted
+        runs-on: ubuntu-latest
         steps:
             - name: Checkout the code
               uses: actions/checkout@v3
